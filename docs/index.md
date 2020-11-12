@@ -3,7 +3,8 @@
 
 
 - [EntitySetNaming](/entitysetnaming.md)
-
+- [How - To | Basics]()
+	-- [Connect To CRM](/how-to/connect-to-crm.md)
 
 ## Introduction
 In short this instance is a wrapper for a standard HttpClient that points to CRM Web API.
