@@ -2,7 +2,7 @@
 # Documentation
 
 
-
+- [Example 1 Heading](###Example-1-Heading)
 ## Introduction
 In short this instance is a wrapper for a standard HttpClient that points to CRM Web API.
 The wrapper contains several extensions for the most used scenarios which makes development with the CRM Web API less verbose and hopefully easier.
