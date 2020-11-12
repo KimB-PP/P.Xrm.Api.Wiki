@@ -1,7 +1,6 @@
 **Versioning Build:** [![Build Status](https://peterpilot.visualstudio.com/PP.Xrm/_apis/build/status/PP.Xrm%20Release?branchName=master)](https://peterpilot.visualstudio.com/PP.Xrm/_build/latest?definitionId=6&branchName=master) **Test Build:** [![Build Status](https://peterpilot.visualstudio.com/PP.Xrm/_apis/build/status/PP.Xrm?branchName=master)](https://peterpilot.visualstudio.com/PP.Xrm/_build/latest?definitionId=5&branchName=master)
 # Documentation
 
-
 - [EntitySetNaming](/entitysetnaming.md)
 - Basics
   - [Connect To CRM](/how-to/connect-to-crm.md)
@@ -10,6 +9,15 @@
   - [Get Entity](/how-to/get-entity.md)
   - [Query / Get Multiple](/how-to/get-multiple.md)
   - [Good To Know](/how-to/good-to-know.md)
+
+## Get the nuget
+The nuget is available on [nuget.org](https://www.nuget.org/packages/PP.Xrm.WebApi/).
+
+or (.net CLI)
+```powershell
+dotnet add package PP.Xrm.WebApi --version x.x.x
+```
+
 
 ## Introduction
 In short this instance is a wrapper for a standard HttpClient that points to CRM Web API.
@@ -38,7 +46,6 @@ The different methods are able to return objects of type <T>. If no object type 
 [Read System.Text.Json documentation.](https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to) 
 
 ## What's next?
-[Add the nuget package to your project.](/Adding-Nuget-to-your-project)
 See how to [Connect to Dynamics using this api](/how-to/connect-to-crm.md).
 Or jump right into [making request to Dynamics](/how-to/create-entity.md).
 
