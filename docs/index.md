@@ -3,7 +3,7 @@
 
 
 - [EntitySetNaming](/entitysetnaming.md)
-- [How - To | Basics]()
+- Basics
   - [Connect To CRM](/how-to/connect-to-crm.md)
   - [Create Entity](/how-to/create-entity.md)
   - [Update And Upsert Entity](/how-to/update-and-upsert-entity.md)
