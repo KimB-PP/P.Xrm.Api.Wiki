@@ -5,6 +5,11 @@
 - [EntitySetNaming](/entitysetnaming.md)
 - [How - To | Basics]()
   - [Connect To CRM](/how-to/connect-to-crm.md)
+  - [Create Entity](/how-to/create-entity.md)
+  - [Update And Upsert Entity](/how-to/update-and-upsert-entity.md)
+  - [Get Entity](/how-to/get-entity.md)
+  - [Query / Get Multiple](/how-to/get-multiple.md)
+  - [Good To Know](/how-to/good-to-know.md)
 
 ## Introduction
 In short this instance is a wrapper for a standard HttpClient that points to CRM Web API.
@@ -34,8 +39,8 @@ The different methods are able to return objects of type <T>. If no object type 
 
 ## What's next?
 [Add the nuget package to your project.](/Adding-Nuget-to-your-project)
-See how to [Connect to Dynamics using this api](/How-To-|-Basics/Connect-to-CRM).
-Or jump right into [making request to Dynamics](/How-To-|-Basics/Create-Entity).
+See how to [Connect to Dynamics using this api](/how-to/connect-to-crm.md).
+Or jump right into [making request to Dynamics](/how-to/create-entity.md).
 
 
 
