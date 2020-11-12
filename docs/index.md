@@ -9,7 +9,11 @@
   - [Get Entity](/how-to/get-entity.md)
   - [Query / Get Multiple](/how-to/get-multiple.md)
   - [Good To Know](/how-to/good-to-know.md)
-
+- Additional
+  - [Batch Request](/how-to/batch-request.md)
+  - [Impersonate-user](/how-to/impersonate-user.md)
+  - [Trigger Function](/how-to/trigger-function.md)
+  
 ## Get the nuget
 The nuget is available on [nuget.org](https://www.nuget.org/packages/PP.Xrm.WebApi/).
 
