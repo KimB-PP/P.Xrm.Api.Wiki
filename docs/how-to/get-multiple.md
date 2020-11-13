@@ -111,12 +111,12 @@ It is possible to get different size lists returned by changing the query maxpag
 
 ```csharp
 //Gets a list of some entities 
-var result = Crm.GetList(new Query(...));
 
-//Do some work on retured list
+var query = new Query(...);
+query.MaxPageSize = 2;
+var result = Crm.GetList(query);
+//Only gets 2 results
 
-result = Crm.GetNextList();
-//Returnes the next set of entities
 ```
 
 To check if a query has more entities to be returned, check if IQuery.NextLink has a value. 
@@ -125,7 +125,7 @@ Example:
 Query testQuery = new Query(....);
 
 var result = Crm.GetList(testQuery);
-if(!string.IsNullOrWhiteSpace(testQuery.NextLink))
-   var nextResult = Crm.GetNext(testQuery);
+if(testQuery.HasNext())
+   var nextResult = Crm.GetNextList(testQuery);
 ```
 If GetNextList() is called with an IQuery object that does not contain  a NextList, the defailt query will be executed (the first result will be returned again). 
