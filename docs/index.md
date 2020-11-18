@@ -46,11 +46,14 @@ You can read more of the entity naming logic and how it is handled this web api 
 
 ## Default Return Object Type
 The different methods are able to return objects of type <T>. If no object type is specified, the default return type is JsonElement. This object is a result of using System.Text.Json to handle de-serialization and serialization of objects.
+  
 [JsonElement class description/documentation.](https://docs.microsoft.com/en-us/dotnet/api/system.text.json.jsonelement?view=netcore-3.1)
+
 [Read System.Text.Json documentation.](https://docs.microsoft.com/en-us/dotnet/standard/serialization/system-text-json-how-to) 
 
 ## What's next?
 See how to [Connect to Dynamics using this api](/how-to/connect-to-crm.md).
+
 Or jump right into [making request to Dynamics](/how-to/create-entity.md).
 
 
